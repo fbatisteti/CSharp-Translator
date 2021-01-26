@@ -1,0 +1,9 @@
+D:\Projetos\cstranslator\Shared\bin\Debug\netstandard2.1\cstranslator.Shared.deps.json
+D:\Projetos\cstranslator\Shared\bin\Debug\netstandard2.1\cstranslator.Shared.dll
+D:\Projetos\cstranslator\Shared\bin\Debug\netstandard2.1\cstranslator.Shared.pdb
+D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.csprojAssemblyReference.cache
+D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.AssemblyInfoInputs.cache
+D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.AssemblyInfo.cs
+D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.csproj.CoreCompileInputs.cache
+D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.dll
+D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.pdb

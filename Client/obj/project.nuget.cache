@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kf0wPTvOSud/FIEFdRnMuL6e12PVM7XKy9uRTX0HYXJboIW6fxtKflbq7CSYPyokLFKENozuY/gKQYurY9MZNw==",
+  "dgSpecHash": "2oUtiY3zk9tlUvpHQk1t0Ozuct4dlZE/ZUBBieQkyGRoyscKjdi5wedD94Vi0/dNuHHhtZpXYLPNBKuOD7WB3g==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\cstranslator\\Client\\cstranslator.Client.csproj",
+  "projectFilePath": "D:\\Projetos\\cstranslator\\client\\cstranslator.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\batis\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\batis\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",

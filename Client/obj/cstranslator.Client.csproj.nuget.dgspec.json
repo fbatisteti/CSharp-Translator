@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\cstranslator\\Client\\cstranslator.Client.csproj": {}
+    "D:\\Projetos\\cstranslator\\client\\cstranslator.Client.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\cstranslator\\Client\\cstranslator.Client.csproj": {
+    "D:\\Projetos\\cstranslator\\client\\cstranslator.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\cstranslator\\Client\\cstranslator.Client.csproj",
+        "projectUniqueName": "D:\\Projetos\\cstranslator\\client\\cstranslator.Client.csproj",
         "projectName": "cstranslator.Client",
-        "projectPath": "D:\\Projetos\\cstranslator\\Client\\cstranslator.Client.csproj",
+        "projectPath": "D:\\Projetos\\cstranslator\\client\\cstranslator.Client.csproj",
         "packagesPath": "C:\\Users\\batis\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\cstranslator\\Client\\obj\\",
+        "outputPath": "D:\\Projetos\\cstranslator\\client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\batis\\AppData\\Roaming\\NuGet\\NuGet.Config",
