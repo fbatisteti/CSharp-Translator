@@ -715,10 +715,10 @@ C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\ob
 C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\compressed\_framework\_bin\cstranslator.Shared.pdb.gz
 C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\compressed\_framework\_bin\cstranslator.Shared.dll.br
 C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\compressed\_framework\_bin\cstranslator.Shared.pdb.br
-C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\2_H_h3rQmAdyOGORyLCmtrYItMh88TrwVbDIC1Bls28=.hash
-C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\Rqr34hNAME2kTtyg_TtMaKkmYWPpmg9pyvtgFiQap7I=.hash
-C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\p0ZKnb8LmFjA-sVU1UkVWB7KYxmCIdnFUXsb6ZL0Sw0=.hash
-C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\UFBYZcy6rlRQku0pAyczb_VxccxNocn6jyOnjKDNOgU=.hash
-C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\-InTmXHA00dpd4fBSMaJ60f2e2Hbr7W022CNj8zACuk=.hash
-C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\V2dbljhnqF3SDd9FtonpyBA0G2L2Q8IMGY1XhVNqHbg=.hash
-C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\XOPRCsJao7eE0d9Ex4kA3cgpPI0iLj9THT4LCxoFxwY=.hash
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\dGhFYJJWZkHqCLhJ11pKdHtXETqIv3KBvFjqJ9w1s5A=.hash
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\Aus7TVdXZ3UYR6uVsiHWddTISvxlYyby2fCLvwRZTzM=.hash
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\BZLe6j5Ane_8nwb34yYIJeoUjPOQgFqU7kdSA_J9YuY=.hash
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\xSqADtZFx_G8r-Ee43VbcI-S5eW1B0iTBhtUiFeHg2M=.hash
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\lLud0B6hPVShezr8P8XylX-OrwP2sUb-LZuUxnKuN2I=.hash
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\lD2_3sjYku6Yx0ogQk5GDFtpydzXyWnq2R8dkO_Umjk=.hash
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\client\obj\Debug\netstandard2.1\integrity\BCZq0nqoAy3dvz575tSYJAKv72fE2ekG-9DXygw9sek=.hash
