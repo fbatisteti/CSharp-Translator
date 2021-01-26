@@ -8,7 +8,12 @@
                     <h5 class="card-title">Pseudocode</h5>
                 </div>
                 <div class="card-body">
-                    <p><button @onclick="@( () => CreateVariable("int", "var", "value") )">Create variable</button></p>
+                    <p>
+                        <input @bind-value="VariableType" @bind-value:event="onchange" placeholder="Variable Type">
+                        <input @bind-value="VariableName" @bind-value:event="onchange" placeholder="Variable Name">
+                        <input @bind-value="VariableValue" @bind-value:event="onchange" placeholder="Variable Value">
+                    </p>
+                    <p><button @onclick="@( () => CreateVariable(VariableType, VariableName, VariableValue) )">Create variable</button></p>
                     <p><button @onclick="@( () => cscode.Add("Ask for input") )">Ask for input</button></p>
                     <p><button @onclick="@( () => cscode.Add("Print") )">Print</button></p>
                 </div>
@@ -67,6 +72,9 @@
             };
     }
 
+    // Generic Methods
+    void Set(string variable, string value) => variable = value;        
+
     // Managing Variables
     public List<Variable> variables = new List<Variable>();
 
@@ -77,10 +85,19 @@
     void CreateVariable(string type, string name, string value) {
         Variable TempVariable = new Variable(type, name, value);
 
+        // Wrong parameters, won't create, log error
+        if (TempVariable.Type == null)
+        {
+            LogEntry error = new LogEntry("0", "Invalid parameters entered on variable creation");
+            log.Add(error);
+            return;
+        }
+
+        // Preparing log
         LogEntry entry = new LogEntry(TempVariable.Check(TempVariable, variables)[0].ToString(), TempVariable.Check(TempVariable, variables).Remove(0, 2).ToString());
         log.Add(entry);
         
-        // Checking if valid
+        // If all is valid, add to CSCODE
         if (entry.Type == "1") cscode.Add($"{type} {name} = {value};");
     }
 }
