@@ -8,7 +8,9 @@
                     <h5 class="card-title">Pseudocode</h5>
                 </div>
                 <div class="card-body">
-                    <button @onclick="@( () => cscode.Add(DateTime.Now.ToString()) )">a</button>
+                    <p><button @onclick="@( () => CreateVariable("int", "var", "value") )">Create variable</button></p>
+                    <p><button @onclick="@( () => cscode.Add("Ask for input") )">Ask for input</button></p>
+                    <p><button @onclick="@( () => cscode.Add("Print") )">Print</button></p>
                 </div>
             </div>
         </div>
@@ -27,8 +29,58 @@
             </div>
         </div>
     </div>
+    
+    <div class="row">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title">Log</h5>
+            </div>
+            <div class="card-body">
+                @foreach (var entry in log)
+                {
+                    @if (entry.Type == "0")
+                    {
+                        <p style="text-color: red;">@entry.Text</p>
+                    } else {
+                        <p>@entry.Text</p>
+                    }
+                }
+            </div>
+        </div>
+    </div>
 </div>
 
 @code {
+    public List<string> pseudocode = new List<string>();
     public List<string> cscode = new List<string>();
+    public List<LogEntry> log = new List<LogEntry>();
+
+    // Initializing with some parameters/optins
+    protected override async Task OnInitializedAsync()
+    {
+        List<string> VariableTypes = new List<string>
+            {
+                "Integer - int",
+                "Text - string",
+                "Boolean - bool",
+                "Decimal - double"
+            };
+    }
+
+    // Managing Variables
+    public List<Variable> variables = new List<Variable>();
+
+    public string VariableName;
+    public string VariableType;
+    public string VariableValue;
+
+    void CreateVariable(string type, string name, string value) {
+        Variable TempVariable = new Variable(type, name, value);
+
+        LogEntry entry = new LogEntry(TempVariable.Check(TempVariable, variables)[0].ToString(), TempVariable.Check(TempVariable, variables).Remove(0, 2).ToString());
+        log.Add(entry);
+        
+        // Checking if valid
+        if (entry.Type == "1") cscode.Add($"{type} {name} = {value};");
+    }
 }
