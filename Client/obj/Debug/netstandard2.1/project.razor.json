@@ -41,6 +41,265 @@
         }
       },
       {
+        "HashCode": 1963853212,
+        "Kind": "Components.Component",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Variables"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "pseudocode",
+            "TypeName": "System.Collections.Generic.List<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "pseudocode"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "cscode",
+            "TypeName": "System.Collections.Generic.List<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "cscode"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "log",
+            "TypeName": "System.Collections.Generic.List<cstranslator.Shared.Models.LogEntry>",
+            "Metadata": {
+              "Common.PropertyName": "log"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "variables",
+            "TypeName": "System.Collections.Generic.List<cstranslator.Shared.Models.Variable>",
+            "Metadata": {
+              "Common.PropertyName": "variables"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "pseudocodeChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<System.String>>",
+            "Metadata": {
+              "Common.PropertyName": "pseudocodeChanged",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "cscodeChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<System.String>>",
+            "Metadata": {
+              "Common.PropertyName": "cscodeChanged",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "logChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<cstranslator.Shared.Models.LogEntry>>",
+            "Metadata": {
+              "Common.PropertyName": "logChanged",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "variablesChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<cstranslator.Shared.Models.Variable>>",
+            "Metadata": {
+              "Common.PropertyName": "variablesChanged",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables"
+        }
+      },
+      {
+        "HashCode": -1353514600,
+        "Kind": "Components.Component",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Pages.Variables"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "pseudocode",
+            "TypeName": "System.Collections.Generic.List<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "pseudocode"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "cscode",
+            "TypeName": "System.Collections.Generic.List<System.String>",
+            "Metadata": {
+              "Common.PropertyName": "cscode"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "log",
+            "TypeName": "System.Collections.Generic.List<cstranslator.Shared.Models.LogEntry>",
+            "Metadata": {
+              "Common.PropertyName": "log"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "variables",
+            "TypeName": "System.Collections.Generic.List<cstranslator.Shared.Models.Variable>",
+            "Metadata": {
+              "Common.PropertyName": "variables"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "pseudocodeChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<System.String>>",
+            "Metadata": {
+              "Common.PropertyName": "pseudocodeChanged",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "cscodeChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<System.String>>",
+            "Metadata": {
+              "Common.PropertyName": "cscodeChanged",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "logChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<cstranslator.Shared.Models.LogEntry>>",
+            "Metadata": {
+              "Common.PropertyName": "logChanged",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "variablesChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<cstranslator.Shared.Models.Variable>>",
+            "Metadata": {
+              "Common.PropertyName": "variablesChanged",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 362057733,
+        "Kind": "Components.Component",
+        "Name": "cstranslator.Client.Pages.Row",
+        "AssemblyName": "cstranslator.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Row"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "content",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "content"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cstranslator.Client.Pages.Row"
+        }
+      },
+      {
+        "HashCode": 46500821,
+        "Kind": "Components.Component",
+        "Name": "cstranslator.Client.Pages.Row",
+        "AssemblyName": "cstranslator.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Pages.Row"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "content",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "content"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cstranslator.Client.Pages.Row",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -774204949,
+        "Kind": "Components.Component",
+        "Name": "cstranslator.Client.Pages.Index",
+        "AssemblyName": "cstranslator.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cstranslator.Client.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -855278221,
+        "Kind": "Components.Component",
+        "Name": "cstranslator.Client.Pages.Index",
+        "AssemblyName": "cstranslator.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cstranslator.Client.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -846556373,
         "Kind": "Components.Component",
         "Name": "cstranslator.Client.Shared.MainLayout",
@@ -137,35 +396,73 @@
         }
       },
       {
-        "HashCode": -774204949,
+        "HashCode": 1924788308,
         "Kind": "Components.Component",
-        "Name": "cstranslator.Client.Pages.Index",
+        "Name": "cstranslator.Client.Shared.About",
         "AssemblyName": "cstranslator.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "About"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "showAbout",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "showAbout"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "showAboutChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "showAboutChanged",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "cstranslator.Client.Pages.Index"
+          "Common.TypeName": "cstranslator.Client.Shared.About"
         }
       },
       {
-        "HashCode": -855278221,
+        "HashCode": 1509300534,
         "Kind": "Components.Component",
-        "Name": "cstranslator.Client.Pages.Index",
+        "Name": "cstranslator.Client.Shared.About",
         "AssemblyName": "cstranslator.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "cstranslator.Client.Pages.Index"
+            "TagName": "cstranslator.Client.Shared.About"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "showAbout",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "showAbout"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "showAboutChanged",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "showAboutChanged",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "cstranslator.Client.Pages.Index",
+          "Common.TypeName": "cstranslator.Client.Shared.About",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -11049,6 +11346,411 @@
         }
       },
       {
+        "HashCode": 741874453,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'pseudocode' property and a change event delegate to the 'pseudocodeChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Variables",
+            "Attributes": [
+              {
+                "Name": "@bind-pseudocode",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-pseudocode",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<System.String>>",
+            "Documentation": "Binds the provided expression to the 'pseudocode' property and a change event delegate to the 'pseudocodeChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "pseudocode"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "pseudocode",
+          "Components.Bind.ChangeAttribute": "pseudocodeChanged",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables"
+        }
+      },
+      {
+        "HashCode": 416360824,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'cscode' property and a change event delegate to the 'cscodeChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Variables",
+            "Attributes": [
+              {
+                "Name": "@bind-cscode",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-cscode",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<System.String>>",
+            "Documentation": "Binds the provided expression to the 'cscode' property and a change event delegate to the 'cscodeChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "cscode"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "cscode",
+          "Components.Bind.ChangeAttribute": "cscodeChanged",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables"
+        }
+      },
+      {
+        "HashCode": -1326512721,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'log' property and a change event delegate to the 'logChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Variables",
+            "Attributes": [
+              {
+                "Name": "@bind-log",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-log",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<cstranslator.Shared.Models.LogEntry>>",
+            "Documentation": "Binds the provided expression to the 'log' property and a change event delegate to the 'logChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "log"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "log",
+          "Components.Bind.ChangeAttribute": "logChanged",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables"
+        }
+      },
+      {
+        "HashCode": -376433308,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'variables' property and a change event delegate to the 'variablesChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Variables",
+            "Attributes": [
+              {
+                "Name": "@bind-variables",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-variables",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<cstranslator.Shared.Models.Variable>>",
+            "Documentation": "Binds the provided expression to the 'variables' property and a change event delegate to the 'variablesChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "variables"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "variables",
+          "Components.Bind.ChangeAttribute": "variablesChanged",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables"
+        }
+      },
+      {
+        "HashCode": -583326677,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'pseudocode' property and a change event delegate to the 'pseudocodeChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Pages.Variables",
+            "Attributes": [
+              {
+                "Name": "@bind-pseudocode",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-pseudocode",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<System.String>>",
+            "Documentation": "Binds the provided expression to the 'pseudocode' property and a change event delegate to the 'pseudocodeChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "pseudocode"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "pseudocode",
+          "Components.Bind.ChangeAttribute": "pseudocodeChanged",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -648187007,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'cscode' property and a change event delegate to the 'cscodeChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Pages.Variables",
+            "Attributes": [
+              {
+                "Name": "@bind-cscode",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-cscode",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<System.String>>",
+            "Documentation": "Binds the provided expression to the 'cscode' property and a change event delegate to the 'cscodeChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "cscode"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "cscode",
+          "Components.Bind.ChangeAttribute": "cscodeChanged",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1746440608,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'log' property and a change event delegate to the 'logChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Pages.Variables",
+            "Attributes": [
+              {
+                "Name": "@bind-log",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-log",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<cstranslator.Shared.Models.LogEntry>>",
+            "Documentation": "Binds the provided expression to the 'log' property and a change event delegate to the 'logChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "log"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "log",
+          "Components.Bind.ChangeAttribute": "logChanged",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 26627244,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Pages.Variables",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'variables' property and a change event delegate to the 'variablesChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Pages.Variables",
+            "Attributes": [
+              {
+                "Name": "@bind-variables",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-variables",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Collections.Generic.List<cstranslator.Shared.Models.Variable>>",
+            "Documentation": "Binds the provided expression to the 'variables' property and a change event delegate to the 'variablesChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "variables"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "variables",
+          "Components.Bind.ChangeAttribute": "variablesChanged",
+          "Common.TypeName": "cstranslator.Client.Pages.Variables",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1485933497,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Shared.About",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'showAbout' property and a change event delegate to the 'showAboutChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "About",
+            "Attributes": [
+              {
+                "Name": "@bind-showAbout",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-showAbout",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "Binds the provided expression to the 'showAbout' property and a change event delegate to the 'showAboutChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "showAbout"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "showAbout",
+          "Components.Bind.ChangeAttribute": "showAboutChanged",
+          "Common.TypeName": "cstranslator.Client.Shared.About"
+        }
+      },
+      {
+        "HashCode": 1654027000,
+        "Kind": "Components.Bind",
+        "Name": "cstranslator.Client.Shared.About",
+        "AssemblyName": "cstranslator.Client",
+        "Documentation": "Binds the provided expression to the 'showAbout' property and a change event delegate to the 'showAboutChanged' property of the component.",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Shared.About",
+            "Attributes": [
+              {
+                "Name": "@bind-showAbout",
+                "Metadata": {
+                  "Common.DirectiveAttribute": "True"
+                }
+              }
+            ]
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Bind",
+            "Name": "@bind-showAbout",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Documentation": "Binds the provided expression to the 'showAbout' property and a change event delegate to the 'showAboutChanged' property of the component.",
+            "Metadata": {
+              "Common.DirectiveAttribute": "True",
+              "Common.PropertyName": "showAbout"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Components.IsSpecialKind": "Components.Bind",
+          "Components.Bind.ValueAttribute": "showAbout",
+          "Components.Bind.ChangeAttribute": "showAboutChanged",
+          "Common.TypeName": "cstranslator.Client.Shared.About",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1217355928,
         "Kind": "Components.Bind",
         "Name": "Microsoft.AspNetCore.Components.Forms.InputCheckbox",
@@ -11635,6 +12337,16 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\Client\\Pages\\Variables.razor",
+      "TargetPath": "Pages\\Variables.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\Client\\Pages\\Row.razor",
+      "TargetPath": "Pages\\Row.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\Client\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
@@ -11647,6 +12359,11 @@
     {
       "FilePath": "c:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\Client\\App.razor",
       "TargetPath": "App.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\Client\\Shared\\About.razor",
+      "TargetPath": "Shared\\About.razor",
       "FileKind": "component"
     }
   ],

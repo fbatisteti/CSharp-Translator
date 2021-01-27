@@ -1,0 +1,148 @@
+<div>
+    <p>
+        <label>Type: </label>
+        <select @bind="VariableType">
+            <option selected class="text-muted" value=null>Pick a type</option>
+            @foreach (string type in VariableTypes)
+            {
+                <option value="@GetVariableType(type)">@type</option>
+            }
+        </select>
+    </p>
+
+    @if (VariableType != null)
+    {
+        <p>
+            <label>Name: </label>
+            <input @bind-value="VariableName" @bind-value:event="onchange" placeholder="Variable Name">
+        </p>
+    }
+
+    @switch (VariableType)
+    {
+        case "int":
+            <p>
+                <label>Value: </label>
+                <input type="number" step="1"
+                    @bind-value="VariableValue" @bind-value:event="onchange" placeholder="Variable Value">
+            </p>
+            break;
+        
+        case "double":
+            <p>
+                <label>Value: </label>
+                <input type="number" step="any"
+                    @bind-value="VariableValue" @bind-value:event="onchange" placeholder="Variable Value">
+            </p>
+            break;
+
+        case "string":
+            <p>
+                <label>Value: </label>
+                <input type="text"
+                    @bind-value="VariableValue" @bind-value:event="onchange" placeholder="Variable Value">
+            </p>
+            break;
+
+        case "bool":
+            <p>
+                <label>Value: </label>
+                <select @bind="VariableValue">
+                    <option selected class="text-muted" value=null>Pick a value</option>
+                    <option value="true">True</option>
+                    <option value="false">False</option>
+                </select>
+            </p>
+            break;
+        
+        default:
+            break;
+    }
+
+    <p><button @onclick="@( () => CreateVariable(VariableType, VariableName, VariableValue) )">Create variable</button></p>
+</div>
+
+@code {
+    // Parameters and callbacks to parent component
+    [Parameter] public List<string> pseudocode { get; set; }
+    [Parameter] public List<string> cscode { get; set; }
+    [Parameter] public List<LogEntry> log { get; set; }
+    [Parameter] public List<Variable> variables { get; set; }
+    [Parameter] public EventCallback<List<string>> pseudocodeChanged { get; set; }
+    [Parameter] public EventCallback<List<string>> cscodeChanged { get; set; }
+    [Parameter] public EventCallback<List<LogEntry>> logChanged { get; set; }
+    [Parameter] public EventCallback<List<Variable>> variablesChanged { get; set; }
+    private Task pseudocodeHasChanged() => pseudocodeChanged.InvokeAsync(pseudocode);
+    private Task cscodeHasChanged() => cscodeChanged.InvokeAsync(cscode);
+    private Task logHasChanged() => logChanged.InvokeAsync(log);
+    private Task variablesHasChanged() => variablesChanged.InvokeAsync(variables);
+
+    // Variables
+    public List<string> VariableTypes = new List<string>
+        {
+                "Integer (int)",
+                "Decimal (double)",
+                "Text (string)",
+                "Boolean (bool)"
+        };
+
+    public string VariableName;
+    public string VariableType;
+    public string VariableValue;
+
+    // Methods
+    
+    /* string GetVariableType(string text)
+    *
+    *   Receives a string like "FULL_PROPER_NAME (VAR_TYPE)" and trims it to return only "VAR_TYPE" */
+    string GetVariableType(string text) {
+        string[] temp = text.Split('(');
+        return temp[1].Remove(temp[1].Length - 1);
+    }
+
+    /* void CreateVariable(string type, string name, string value)
+    * 
+    *   Receives "TYPE", "NAME" and "VALUE" strings to create a "Variable" object
+    *   Creates a temporary object to receive values and checks if a type was chosen (TYPE != null),
+    *   returning a log error if it wasn't.
+    *   If all values aren't null, create a log entry based on the "Check" method from "Variable" class.
+    *   In case of a log enty of "1", adds the object to pseudocode and C# code, the variable to the
+    *   variable list, and clear the input fields.
+    *   Informs parent that things changed. */
+    void CreateVariable(string type, string name, string value) {
+        Variable TempVariable = new Variable(type, name, value);
+
+        // Wrong parameters, log error
+        if (TempVariable.Type == null
+            || TempVariable.Name == null
+            || TempVariable.Value == null)
+        {
+            LogEntry error = new LogEntry("0", "Invalid parameters entered on variable creation");
+            log.Add(error);
+            logHasChanged();
+            return;
+        }
+
+        // Preparing log
+        LogEntry entry = TempVariable.CheckName(TempVariable, variables);
+        log.Add(entry);
+        
+        // If all is valid, add to CSCODE
+        if (entry.Type == "1")
+        {
+            pseudocode.Add($"{type} {name} = {value};");
+            cscode.Add($"{type} {name} = {value};");
+            variables.Add(TempVariable);
+
+            // Clear the values
+            VariableType = null;
+            VariableName = null;
+            VariableValue = null;
+        }
+
+        // Pass changes to parent
+        pseudocodeHasChanged();
+        cscodeHasChanged();
+        logHasChanged();
+    }
+}

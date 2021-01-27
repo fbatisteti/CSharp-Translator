@@ -8,14 +8,8 @@
                     <h5 class="card-title">Pseudocode</h5>
                 </div>
                 <div class="card-body">
-                    <p>
-                        <input @bind-value="VariableType" @bind-value:event="onchange" placeholder="Variable Type">
-                        <input @bind-value="VariableName" @bind-value:event="onchange" placeholder="Variable Name">
-                        <input @bind-value="VariableValue" @bind-value:event="onchange" placeholder="Variable Value">
-                    </p>
-                    <p><button @onclick="@( () => CreateVariable(VariableType, VariableName, VariableValue) )">Create variable</button></p>
-                    <p><button @onclick="@( () => cscode.Add("Ask for input") )">Ask for input</button></p>
-                    <p><button @onclick="@( () => cscode.Add("Print") )">Print</button></p>
+                    <Variables @bind-pseudocode="pseudocode" @bind-cscode="cscode"
+                        @bind-log="log" @bind-variables="variables"/>
                 </div>
             </div>
         </div>
@@ -28,7 +22,7 @@
                 <div class="card-body">
                     @foreach (var line in cscode)
                     {
-                        <p>@line</p>
+                        <Row content="@line" />
                     }
                 </div>
             </div>
@@ -45,9 +39,9 @@
                 {
                     @if (entry.Type == "0")
                     {
-                        <p style="text-color: red;">@entry.Text</p>
+                        <Row content="@entry.Text" />
                     } else {
-                        <p>@entry.Text</p>
+                        <Row content="@entry.Text" />
                     }
                 }
             </div>
@@ -57,47 +51,19 @@
 
 @code {
     public List<string> pseudocode = new List<string>();
-    public List<string> cscode = new List<string>();
+    public List<string> cscode = new List<string>{
+        "using System;",
+        "namespace pasta",
+        "{",
+        "  class Program",
+        "  {",
+        "    static void Main(string[] args)",
+        "    {",
+        "      Console.WriteLine(\"Hello World!\");",
+        "    }",
+        "  }",
+        "}"
+    };
     public List<LogEntry> log = new List<LogEntry>();
-
-    // Initializing with some parameters/optins
-    protected override async Task OnInitializedAsync()
-    {
-        List<string> VariableTypes = new List<string>
-            {
-                "Integer - int",
-                "Text - string",
-                "Boolean - bool",
-                "Decimal - double"
-            };
-    }
-
-    // Generic Methods
-    void Set(string variable, string value) => variable = value;        
-
-    // Managing Variables
     public List<Variable> variables = new List<Variable>();
-
-    public string VariableName;
-    public string VariableType;
-    public string VariableValue;
-
-    void CreateVariable(string type, string name, string value) {
-        Variable TempVariable = new Variable(type, name, value);
-
-        // Wrong parameters, won't create, log error
-        if (TempVariable.Type == null)
-        {
-            LogEntry error = new LogEntry("0", "Invalid parameters entered on variable creation");
-            log.Add(error);
-            return;
-        }
-
-        // Preparing log
-        LogEntry entry = new LogEntry(TempVariable.Check(TempVariable, variables)[0].ToString(), TempVariable.Check(TempVariable, variables).Remove(0, 2).ToString());
-        log.Add(entry);
-        
-        // If all is valid, add to CSCODE
-        if (entry.Type == "1") cscode.Add($"{type} {name} = {value};");
-    }
 }
