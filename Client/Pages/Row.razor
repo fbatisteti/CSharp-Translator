@@ -1,0 +1,21 @@
+<div>
+    <div class="row">
+        <div class="col-1">
+            <button type="button" class="btn btn-outline-danger">
+                <span class="oi oi-trash" aria-hidden="true"></span>
+            </button>
+        </div>
+        <div class="col-1">
+            <button type="button" class="btn btn-outline-warning">
+                <span class="oi oi-pencil" aria-hidden="true"></span>
+            </button>
+        </div>
+        <div class="col-9">
+            <p>@content</p>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public string content { get; set; }
+}

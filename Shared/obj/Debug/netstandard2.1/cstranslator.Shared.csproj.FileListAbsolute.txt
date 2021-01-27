@@ -7,3 +7,12 @@ D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.Ass
 D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.csproj.CoreCompileInputs.cache
 D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.dll
 D:\Projetos\cstranslator\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.pdb
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\bin\Debug\netstandard2.1\cstranslator.Shared.deps.json
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\bin\Debug\netstandard2.1\cstranslator.Shared.dll
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\bin\Debug\netstandard2.1\cstranslator.Shared.pdb
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.csprojAssemblyReference.cache
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.AssemblyInfoInputs.cache
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.AssemblyInfo.cs
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.csproj.CoreCompileInputs.cache
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.dll
+C:\Users\fabio.batisteti\OneDrive - Blink Systems\Documentos\fabio\cst\Shared\obj\Debug\netstandard2.1\cstranslator.Shared.pdb

@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Aus7TVdXZ3UYR6uVsiHWddTISvxlYyby2fCLvwRZTzM=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tcXES0Ppo6n282dg7AbcHu3fOmvHTMHuuQEusISEDeI=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\cstranslator.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cstranslator.Client.dll.gz"
     },
@@ -156,7 +156,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BZLe6j5Ane_8nwb34yYIJeoUjPOQgFqU7kdSA_J9YuY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\YuMP2jp5VcxE8MZVjLqQduxDreZIhkKBuGloCJyvpnE=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\cstranslator.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cstranslator.Shared.dll.gz"
     },
@@ -261,12 +261,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\xSqADtZFx_G8r-Ee43VbcI-S5eW1B0iTBhtUiFeHg2M=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\W8fupwfXRVN8uQx7M_13z1KWPrM5gANOJa1LL1EqsDk=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\cstranslator.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cstranslator.Client.pdb.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lLud0B6hPVShezr8P8XylX-OrwP2sUb-LZuUxnKuN2I=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\l0ca_lcn6s1mGZpKC29F-cu7iljuFufs9Tl4j0yHxUU=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\cstranslator.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cstranslator.Shared.pdb.gz"
     },
@@ -291,12 +291,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lD2_3sjYku6Yx0ogQk5GDFtpydzXyWnq2R8dkO_Umjk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\UBJmHNaOyUqB7ZF0vy1-jv3aN77UWeX1wyguQhxvAeg=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BCZq0nqoAy3dvz575tSYJAKv72fE2ekG-9DXygw9sek=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\eQCTX3lzh__dGTCNIWsAhJdsKPa4Qu_AxrzbWto21Oo=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.gz"
     }
