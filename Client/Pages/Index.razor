@@ -1,25 +1,49 @@
 ﻿@page "/"
+@inject IJSRuntime js
 
 <div class="container-fluid">
+    <!-- Commands + Log -->
+    <div class="row">
+        <div class="col-md-6 col-xs-6 mb-3">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Commands</h5>
+                </div>
+                <div class="card-body" style="@layoutLog">
+                    <Variables @bind-pseudocode="pseudocode" @bind-cscode="cscode"
+                        @bind-log="log" @bind-variables="variables"/>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-xs-6 mb-3">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Log</h5>
+                </div>
+                <div class="card-body" style="@layoutLog">
+                    @foreach (var entry in log)
+                    {
+                        @if (entry.Type == "0")
+                        {
+                            <Row content="@entry.Text" />
+                        } else {
+                            <Row content="@entry.Text" />
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Codes -->
     <div class="row">
         <div class="col-md-6 col-xs-6 mb-3">
             <div class="card">
                 <div class="card-header">
                     <h5 class="card-title">Pseudocode</h5>
                 </div>
-                <div class="card-body">
-                    <Variables @bind-pseudocode="pseudocode" @bind-cscode="cscode"
-                        @bind-log="log" @bind-variables="variables"/>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-6 col-xs-6 mb-3">
-            <div class="card">
-                <div class="card-header">
-                    <h5 class="card-title">C# Code</h5>
-                </div>
-                <div class="card-body">
+                <div class="card-body" style="@layoutCode">
                     @foreach (var line in cscode)
                     {
                         <Row content="@line" />
@@ -27,23 +51,18 @@
                 </div>
             </div>
         </div>
-    </div>
-    
-    <div class="row">
-        <div class="card">
-            <div class="card-header">
-                <h5 class="card-title">Log</h5>
-            </div>
-            <div class="card-body">
-                @foreach (var entry in log)
-                {
-                    @if (entry.Type == "0")
+        
+        <div class="col-md-6 col-xs-6 mb-3">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">C# Code</h5>
+                </div>
+                <div class="card-body" style="@layoutCode">
+                    @foreach (var line in cscode)
                     {
-                        <Row content="@entry.Text" />
-                    } else {
-                        <Row content="@entry.Text" />
+                        <Row content="@line" />
                     }
-                }
+                </div>
             </div>
         </div>
     </div>
@@ -66,4 +85,17 @@
     };
     public List<LogEntry> log = new List<LogEntry>();
     public List<Variable> variables = new List<Variable>();
+
+    public int windowHeight;
+    public int windowWidth;
+    public string layoutLog;
+    public string layoutCode;
+
+    protected override async Task OnInitializedAsync() {
+        var windowWidth = Convert.ToInt32(await js.InvokeAsync<int>("getWidth"));
+        var windowHeight = Convert.ToInt32(await js.InvokeAsync<int>("getHeight"));
+
+        layoutLog = $"height: {windowHeight * 0.15}px; max-height: {windowHeight * 0.15}px; max-width: {windowWidth * 0.45}px; overflow-x: auto; overflow-y: auto;";
+        layoutCode = $"height: {windowHeight * 0.55}px; max-height: {windowHeight * 0.55}px; max-width: {windowWidth * 0.45}px; overflow-x: auto; overflow-y: auto;";
+    } 
 }

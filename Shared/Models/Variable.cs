@@ -38,7 +38,7 @@ namespace cstranslator.Shared.Models
             {
                 if (saved.Name == variable.Name) return new LogEntry("0", "A variable with that name already exists");
             }
-            return new LogEntry("1",$"Variable ({variable.Type}) {variable.Name} created with value of {variable.Value}");
+            return new LogEntry("1",$"Variable ({variable.Type}) \"{variable.Name}\" created with value of {variable.Value}");
         }
 
         /* Boolean CanSave(string type, string value)

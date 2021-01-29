@@ -130,7 +130,7 @@
         // If all is valid, add to CSCODE
         if (entry.Type == "1")
         {
-            pseudocode.Add($"{type} {name} = {value};");
+            pseudocode.Add($"{type} variable \"{name}\" = {value};");
             cscode.Add($"{type} {name} = {value};");
             variables.Add(TempVariable);
 
