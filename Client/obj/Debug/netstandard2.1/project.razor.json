@@ -41,6 +41,59 @@
         }
       },
       {
+        "HashCode": 362057733,
+        "Kind": "Components.Component",
+        "Name": "cstranslator.Client.Pages.Row",
+        "AssemblyName": "cstranslator.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Row"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "content",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "content"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cstranslator.Client.Pages.Row"
+        }
+      },
+      {
+        "HashCode": 46500821,
+        "Kind": "Components.Component",
+        "Name": "cstranslator.Client.Pages.Row",
+        "AssemblyName": "cstranslator.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "cstranslator.Client.Pages.Row"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "content",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "content"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "cstranslator.Client.Pages.Row",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1963853212,
         "Kind": "Components.Component",
         "Name": "cstranslator.Client.Pages.Variables",
@@ -210,59 +263,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "cstranslator.Client.Pages.Variables",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 362057733,
-        "Kind": "Components.Component",
-        "Name": "cstranslator.Client.Pages.Row",
-        "AssemblyName": "cstranslator.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Row"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "content",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "content"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "cstranslator.Client.Pages.Row"
-        }
-      },
-      {
-        "HashCode": 46500821,
-        "Kind": "Components.Component",
-        "Name": "cstranslator.Client.Pages.Row",
-        "AssemblyName": "cstranslator.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "cstranslator.Client.Pages.Row"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "content",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "content"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "cstranslator.Client.Pages.Row",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

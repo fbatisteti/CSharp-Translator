@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\tcXES0Ppo6n282dg7AbcHu3fOmvHTMHuuQEusISEDeI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\iimeUw_yhi1XU0Y3niiVr4yTdkgA4VGAv7P8rABkTRQ=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\cstranslator.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cstranslator.Client.dll.br"
     },
@@ -156,7 +156,42 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\YuMP2jp5VcxE8MZVjLqQduxDreZIhkKBuGloCJyvpnE=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
+      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Tqh1Da_iTRQJEZUGAsMNFuZ4hf1PMf13WApRZod_uw4=.hash",
+      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Encodings.Web.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash",
+      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Json.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash",
+      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.CompilerServices.Unsafe.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\OBWh2or_2mU6elwqPfmL72FBZVKl2WzTJ4L-IrKeXM4=.hash",
+      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Bcl.AsyncInterfaces.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash",
+      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Threading.Tasks.Extensions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Tasks.Extensions.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qAKfFnquY_7UC-MzLi04rjqEhLzTryCoLg-S6MxI19I=.hash",
+      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Numerics.Vectors.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.Vectors.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-DY8zNvDaSSzJkcmRsAtFtQuWm9EILcPuiCU1zBJPeo=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\cstranslator.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cstranslator.Shared.dll.br"
     },
@@ -171,19 +206,9 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Tqh1Da_iTRQJEZUGAsMNFuZ4hf1PMf13WApRZod_uw4=.hash",
-      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Encodings.Web.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encodings.Web.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Primitives.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Primitives.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kL-omZDwqByAi_lPdMeDmr3XjHcn4RVb_LmZ4mut1Yc=.hash",
-      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Runtime.CompilerServices.Unsafe.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.CompilerServices.Unsafe.dll.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\n0Ag7rF7ZQamklPSZkakIXkRoa6JwlmPSS0cRaAhJQM=.hash",
@@ -221,26 +246,6 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.FileProviders.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\HQeN_ZfHAERO_uW0fP0J9J3WV1hQ3vUIOWbqGSYBPp8=.hash",
-      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Json.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Json.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\OBWh2or_2mU6elwqPfmL72FBZVKl2WzTJ4L-IrKeXM4=.hash",
-      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Bcl.AsyncInterfaces.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Bcl.AsyncInterfaces.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TkH6yxFQlTfY8NfznePrCdYJiEVpM9Dqy4Uu4H9qk10=.hash",
-      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Threading.Tasks.Extensions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Threading.Tasks.Extensions.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\qAKfFnquY_7UC-MzLi04rjqEhLzTryCoLg-S6MxI19I=.hash",
-      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Numerics.Vectors.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Numerics.Vectors.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.dll.br"
@@ -251,22 +256,17 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Options.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash",
-      "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.dll.br"
-    },
-    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.JSInterop.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\W8fupwfXRVN8uQx7M_13z1KWPrM5gANOJa1LL1EqsDk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mbNN6F0QGir8JwXsw4Md_FW4lSn8ChD5Ka2LY8cUFyw=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\cstranslator.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cstranslator.Client.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\l0ca_lcn6s1mGZpKC29F-cu7iljuFufs9Tl4j0yHxUU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fc71t_eLbmHsxdy5bVoThbFOUej3FA9rTSO67IqqTQ8=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\cstranslator.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/cstranslator.Shared.pdb.br"
     },
@@ -291,12 +291,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\UBJmHNaOyUqB7ZF0vy1-jv3aN77UWeX1wyguQhxvAeg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\iSf6U2y5gqP3S98_wiET4xYCqcjCj2QAKRbgmK3WXEs=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\eQCTX3lzh__dGTCNIWsAhJdsKPa4Qu_AxrzbWto21Oo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\aPSlUn4qqQs1RW-_9uUN7AwMlPMZwUjXOfkwbiLtGyY=.hash",
       "Source": "C:\\Users\\fabio.batisteti\\OneDrive - Blink Systems\\Documentos\\fabio\\cst\\client\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.br"
     }
